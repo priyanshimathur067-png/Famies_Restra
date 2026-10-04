@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+#home {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #ffe0b2;
+}
+
+#home h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+#home button {
+    padding: 12px 25px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#menu {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#menu h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#menu > div {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#menu h3 {
+    font-size: 24px;
+}
+
+#menu p {
+    font-size: 16px;
+}
+
+#menu p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+#About {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#About h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#About p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+#Contact {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffe0b2;
+}
+
+#Contact h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+#Contact p {
+    font-size: 18px;
+    margin: 10px;
+}
+#menu > div {
+    transition: transform 0.3s;
+}
+
+#menu > div:hover {
+    transform: translateY(-8px);
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+#gallery img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}
